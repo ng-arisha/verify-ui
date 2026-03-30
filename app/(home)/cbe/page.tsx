@@ -41,9 +41,7 @@ export default function CBEVeification() {
       setLoading(true);
       setError("");
 
-      // 🔌 Replace this with your real API call
-      // const res = await fetch(`/api/search?code=${searchValue}`);
-      // const data = await res.json();
+     
       const res = await fetch("https://nonextraneous-disaffectedly-kori.ngrok-free.dev/verify/cbe",
         {
           method: "POST",
