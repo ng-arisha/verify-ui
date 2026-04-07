@@ -53,7 +53,7 @@ export default function Home() {
       const datta = await res.json();
       console.log(JSON.stringify(datta));
       if(!datta.data){
-        setError(datta.message || "No results found for the provided code.");
+        setError(datta.error || "No results found for the provided code.");
         setResults(null);
         return;
       }
