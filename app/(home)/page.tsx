@@ -41,7 +41,7 @@ export default function Home() {
       setError("");
 
    
-      const res = await fetch("https://nonextraneous-disaffectedly-kori.ngrok-free.dev/verify/verify",
+      const res = await fetch("https://marlin-enjoyable-yodel.ngrok-free.dev/verify/verify",
         {
           method: "POST",
           headers: {

@@ -42,7 +42,7 @@ export default function CBEVeification() {
       setError("");
 
      
-      const res = await fetch("https://nonextraneous-disaffectedly-kori.ngrok-free.dev/verify/cbe",
+      const res = await fetch("https://marlin-enjoyable-yodel.ngrok-free.dev/verify/cbe",
         {
           method: "POST",
           headers: {
