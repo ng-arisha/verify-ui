@@ -41,13 +41,13 @@ export default function Home() {
       setError("");
 
    
-      const res = await fetch("https://marlin-enjoyable-yodel.ngrok-free.dev/verify/verify",
+      const res = await fetch(`https://marlin-enjoyable-yodel.ngrok-free.dev/telebirr/receipt/${searchValue}`,
         {
-          method: "POST",
+          method: "GET",
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ receiptNo: searchValue }),
+          // body: JSON.stringify({ receiptNo: searchValue }),
         }
       )
       const datta = await res.json();
